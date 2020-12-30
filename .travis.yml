@@ -13,3 +13,8 @@ script:
   - ganache-cli &
   - sleep 5
   - truffle test
+  
+  addons:
+  hosts:
+  - travis.test
+  - joshkalderimis.com
